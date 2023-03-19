@@ -5,72 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61ef0fdf-bbdc-4800-934c-1adba659adc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/.java-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/docker-build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/docker-push.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/docker-run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/etc/cas/.ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/etc/cas/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/etc/cas/config/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/etc/cas/services/AllowsAll-10000001.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/gradle/jib.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/gradle/springboot.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/gradle/tasks.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/lombok.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/puppeteer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/puppeteer/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/puppeteer/scenarios/basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/src/main/java/org/apereo/cas/config/CasOverlayOverrideConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/src/main/jib/docker/entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cas/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/ConfusionDebugApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/api/DebugApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/config/ConfigEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/config/log/MdcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/config/redis/LettuceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/config/web/CasFilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/config/web/CasInterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/config/web/HttpSSLConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/model/UserWho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/service/DebugService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/service/impl/DebugServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/util/Https.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/java/com/acech/debug/util/RestResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug-app/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cas/etc/cas/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cas/etc/cas/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/debug-app/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockerExecCommands">
+    <ExecCommand>
+      <option name="command" value="/bin/bash" />
+    </ExecCommand>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/cas">
@@ -128,6 +75,18 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="aliyun" />
+      </list>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="artifactory" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="2N9gLsqmfidptm9Iy45vREeHVGp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -148,10 +107,10 @@
     "last_directory_selection": "D:/Projects/spring-session-confusion/src/main/java/com/acech/debug",
     "last_opened_file_path": "D:/Projects/spring-session-confusion/cas/etc/cas/config",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.23678161",
-    "settings.editor.selected.configurable": "spring.boot.initializr",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -184,25 +143,69 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ConfusionDebugApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <option name="ACTIVE_PROFILES" />
+  <component name="RunManager" selected="Docker.docker-compose.yml.debug-cas: Compose Deployment">
+    <configuration name="ConfusionDebugApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="debug-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.acech.debug.ConfusionDebugApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.acech.debug.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cas/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="cas/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.debug-app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="debug-app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.debug-cas: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="debug-cas" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.debug-app: Compose Deployment" />
+      <item itemvalue="Docker.cas/Dockerfile" />
+      <item itemvalue="Docker.docker-compose.yml.debug-cas: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Spring Boot.ConfusionDebugApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfusionDebugApplication" />
-        <item itemvalue="Spring Boot.ConfusionDebugApplication" />
+        <item itemvalue="Docker.docker-compose.yml.debug-cas: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.debug-app: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.cas/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +217,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679081660844</updated>
-      <workItem from="1679081662157" duration="42648000" />
+      <workItem from="1679081662157" duration="50423000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,36 @@
+version: '3'
+services:
+  debug-redis:
+    image: redis:7.0.0
+    ports:
+      - "6379:6379"
+    restart: always
+    container_name: debug-redis
+    hostname: debug-redis
+
+  debug-cas:
+    build:
+      context: ./cas
+    ports:
+      - "8443:8443"
+    environment:
+      DEBUG_APP_DOMAIN: "http://debug-app:8080"
+    restart: on-failure
+    container_name: debug-cas
+    hostname: debug-cas
+
+  debug-app:
+    depends_on:
+      - debug-redis
+      - debug-cas
+    build:
+      context: ./debug-app
+    ports:
+      - "8080:8080"
+    environment:
+      DEBUG_APP_DOMAIN: "http://debug-app:8080"
+      DEBUG_CAS_DOMAIN: "https://debug-cas:8443"
+      DEBUG_REDIS_HOST: "debug-redis"
+    restart: always
+    container_name: debug-app
+    hostname: debug-app

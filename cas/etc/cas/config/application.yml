@@ -6,11 +6,13 @@ cas:
     core:
       init-from-json: true # scan services from json
     json:
-      location: /etc/cas/services
+      location: file:///etc/cas/services
     schedule:
       repeat-interval: 120000
   authn:
     accept:
       enabled: false # disable default static authentication
     rest:
-      uri: ${DEBUG_APP_HOST}/api/debug/authenticate # refer authenticate action to DebugApplication
+      uri: ${DEBUG_APP_DOMAIN}/api/debug/authenticate # refer authenticate action to DebugApplication
+  logout:
+    follow-service-redirects: true
