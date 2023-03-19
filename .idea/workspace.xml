@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61ef0fdf-bbdc-4800-934c-1adba659adc4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cas/etc/cas/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cas/etc/cas/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/debug-app/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.debug-cas: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="ConfusionDebugApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="debug-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.acech.debug.ConfusionDebugApplication" />
@@ -193,8 +192,22 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.debug-redis: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="debug-redis" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Docker.docker-compose.yml.debug-app: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.debug-redis: Compose Deployment" />
       <item itemvalue="Docker.cas/Dockerfile" />
       <item itemvalue="Docker.docker-compose.yml.debug-cas: Compose Deployment" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
@@ -202,9 +215,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml.debug-cas: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.debug-app: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.debug-cas: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.debug-redis: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.debug-app: Compose Deployment" />
         <item itemvalue="Docker.cas/Dockerfile" />
       </list>
     </recent_temporary>
@@ -217,7 +231,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679081660844</updated>
-      <workItem from="1679081662157" duration="50423000" />
+      <workItem from="1679081662157" duration="55513000" />
     </task>
     <servers />
   </component>
